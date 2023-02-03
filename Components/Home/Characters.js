@@ -6,6 +6,9 @@ const Characters = () => {
     return (
         <div>
             <div className={styles.bg}>
+                <div className='mx-auto w-[fit-content] pt-[64px]'>
+                    <Image src='/images/Logo.png' width={265} height={96}></Image>
+                </div>
                
             </div>
             <div>
