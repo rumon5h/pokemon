@@ -6,3 +6,15 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.brush{
+    width: 576px;
+    height: 146px;
+    background-image: url('../../../pokemon/public/images/Brush.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 95px;
+    margin-bottom: 50px;
+}
