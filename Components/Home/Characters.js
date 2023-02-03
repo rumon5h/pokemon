@@ -1,18 +1,21 @@
+import Card from 'Components/Card/Card';
 import Image from 'next/image';
 import React from 'react'
 import styles from '../../src/styles/Characters.module.css';
 
 const Characters = () => {
 
+    const pokemon = [1,2,3,4,5];
+
     return (
         <div>
             <div className={styles.bg}>
-                <div className='mx-auto w-[fit-content] pt-[64px]'>
+                <div className='mx-auto w-[fit-content]   pt-[64px]'>
                     <Image src='/images/Logo.png' alt='logo' priority width={265} height={96}></Image>
                 </div>
-                <div>
+                <div className='flex flex-wrap max-h-[100vh] overflow-hidden py-5 justify-center items-center'>
                     {
-
+                        pokemon.map(s => <Card s={s} key={s}/>)
                     }
                 </div>
             </div>

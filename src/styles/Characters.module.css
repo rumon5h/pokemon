@@ -1,13 +1,15 @@
 .bg {
-    width: 100%;
+    max-width: 1400px;
+
     height: 100vh;
+
     background-image: url('../../../pokemon/public/images/background.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.brush{
+.brush {
     width: 576px;
     height: 146px;
     background-image: url('../../../pokemon/public/images/Brush.png');
